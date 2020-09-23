@@ -1,0 +1,16 @@
+spring:
+  data:
+    neo4j:
+      uri: bolt://localhost:7687
+      username: neo4j
+      password: xccwan520
+  #  datasource:
+  #    username: radar
+  #    password: ssdut
+  #    url: jdbc:kingbase8://47.94.245.203:54321/KNOWLEDGE_GRAPH
+  #    driver-class-name: com.kingbase8.Driver
+
+  servlet:
+    multipart:
+      max-file-size: 500MB
+      max-request-size: 500MB
